@@ -247,8 +247,9 @@ h2 {
 
 .problem-cell a {
     text-decoration: none;
-    color: #007bff;
+    color: #005eff;
     font-weight: 500;
+    font-size: 16.5px
 }
 
 .day-cell {
@@ -759,13 +760,13 @@ input:not(:checked)+.slider {
 
 .dark-mode .year-cell,
 .dark-mode .day-cell {
-    background-color: #202938;
+    background-color: #29282873;
 }
 
 .dark-mode table,
 .dark-mode td,
 .dark-mode th {
-    border: 1px solid #2a2a2a;
+    border: 1.5px solid #373737;
     /* softer gray border */
 }
 
@@ -774,15 +775,15 @@ input:not(:checked)+.slider {
 }
 
 .dark-mode .green {
-    background-color: #64cd69;
+    background-color: #3dbb43e4;
 }
 
 .dark-mode .yellow {
-    background-color: #e6b800;
+    background-color: #ffcc01cb;
 }
 
 .dark-mode .red {
-    background-color: #f44336;
+    background-color: #650700;
 }
 
 .dark-mode .problem-cell.skeleton {
@@ -1032,7 +1033,7 @@ body.dark-mode .settings-label {
     font-size: 14px;
     /* Increase font size for legibility */
     font-weight: bold;
-    color: #333;
+    color: #c10000;
     text-decoration: none;
     background-color: transparent;
     border: none;
