@@ -249,7 +249,7 @@ h2 {
     text-decoration: none;
     color: #005eff;
     font-weight: 500;
-    font-size: 16.5px
+    font-size: 16px
 }
 
 #status-popup {
@@ -756,7 +756,7 @@ input:not(:checked)+.slider {
 .dark-mode table,
 .dark-mode td,
 .dark-mode th {
-    border: 1.5px solid #373737;
+    border: 1px solid #373737;
     /* softer gray border */
 }
 
